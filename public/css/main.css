@@ -1,0 +1,28 @@
+.test{
+    box-shadow: 5px 5px 5px 5px gray;
+    elevation: 80deg;
+    border-radius: 3%;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+
+}
+
+.card{
+    border-radius: 3%;
+}
+
+.background{
+    background-color: #5FD9E7;
+}
+
+#card-word{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.main-background{
+    background-color: #9BE77A;
+}
