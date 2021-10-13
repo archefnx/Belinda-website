@@ -6,7 +6,7 @@
             <div class="card-body" id="card-word">
                 <h5 class="card-title">{{ $words[$randNum]['word'] }}</h5>
                 <p class="card-text">{{ $words[$randNum]['transcription'] }}</p>
-                <p class="card-text">{{ $words[$randNum]['translate'] }}</p>
+                <p id="next-button" class="card-text">{{ $words[$randNum]['translate'] }}</p>
                 <a href="/" class="btn btn-primary">Next-></a>
             </div>
         </div>

@@ -7,7 +7,6 @@
 .center{
     position: absolute;
     top: 50%;
-
 }
 
 .card{
@@ -15,7 +14,7 @@
 }
 
 .background{
-    background-color: #5FD9E7;
+    background-color: #00FFFA;
 }
 
 #card-word{
@@ -24,5 +23,5 @@
 }
 
 .main-background{
-    background-color: #9BE77A;
+    background-color: #00FFFA;
 }
