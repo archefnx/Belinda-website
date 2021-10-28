@@ -10,7 +10,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $json = Storage::disk('local')->get('words.json');
+        $json = file_get_contents(base_path('resources/word-rus-eng.json'));
         $words = json_decode($json, true);
 
         $randNum = rand(1, 3);
